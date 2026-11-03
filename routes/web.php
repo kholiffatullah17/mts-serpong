@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+// Halaman Pendaftaran PPDB
+Route::get('/register', [PpdbController::class, 'index'])->name('ppdb.register');
+Route::post('/register', [PpdbController::class, 'store'])->name('ppdb.store');
+
+// Halaman Dashboard Admin
+Route::get('/admin', [PpdbController::class, 'adminDashboard'])->name('admin.dashboard');
