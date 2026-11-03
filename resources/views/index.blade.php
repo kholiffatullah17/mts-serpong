@@ -965,7 +965,7 @@
       </form>
 
       <div class="text-center mt-4 pt-3 border-top">
-        <p class="text-small mb-0">Belum memiliki akun? <a href="registrasi.html" class="text-success fw-bold">Daftar PPDB</a></p>
+        <p class="text-small mb-0">Belum memiliki akun? <a href="{{ route('ppdb.register') }}" class="text-success fw-bold">Daftar PPDB</a></p>
       </div>
     </div>
   </div>

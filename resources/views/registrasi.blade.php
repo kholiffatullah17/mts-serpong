@@ -12,16 +12,16 @@
   <title>Pendaftaran PPDB - MTs SERPONG</title>
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+  <link rel="shortcut icon" href="{{ asset('assets/images/favicon.svg') }}" type="image/svg" />
 
   <!--====== Bootstrap css ======-->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
 
   <!--====== Line Icons css ======-->
-  <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="{{ asset('assets/css/lineicons.css') }}" />
 
   <!--====== Style css ======-->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 </head>
 
 <body>
@@ -215,8 +215,8 @@
   </a>
 
   <!--====== JS ======-->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
